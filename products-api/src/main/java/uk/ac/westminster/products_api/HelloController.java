@@ -33,7 +33,7 @@ public class HelloController {
     public String goodbye(){return "Goodbye from Spring Boots!";
 
     }
-    @GetMapping("/status")
+    @GetMapping("/status2")
     public String status2(){LocalDate.now().toString();
         return "API running -" + LocalDate.now().toString();
     }
