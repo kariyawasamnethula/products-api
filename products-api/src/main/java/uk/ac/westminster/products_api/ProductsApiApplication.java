@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * web server on http://localhost:8080
  */
 
+//@SpringBootApplication  is made by collecting , SpringBootConfiguration,EnableAutoConfiguration,ComponentScan
 @SpringBootApplication
 public class ProductsApiApplication {
 
